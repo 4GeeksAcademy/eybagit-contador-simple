@@ -1,11 +1,48 @@
-/* 
+.fondo-negro {
+  background-color: #000;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contenedor-principal {
+  min-height: 40vh;
+  padding-top: 2rem;
+  margin: 0 1rem;
+}
 
-*/
+.contenedor-temporizador {
+  padding: 1.5rem;
+  width: calc(100% - 3rem);
+  aspect-ratio: 10/1.8;
+}
+
+.icono,
+.digito {
+  background: #0f0f0f;
+  color: #fff;
+  border-radius: 1rem;
+  border-left: 4px solid #181818;
+  border-right: 4px solid #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  font-size: 8vw;
+  width: 2.2ch;
+  aspect-ratio: 1/1;
+  padding: 0.5ch;
+}
+
+.digito {
+  font-family: "Product Sans", sans-serif;
+  font-size: 8vw;
+  width: 2ch;
+  aspect-ratio: 1/1.4;
+  margin: 0 0.2rem;
+}
+
+.voltear-horizontal {
+  transform: scaleX(-1);
+}
