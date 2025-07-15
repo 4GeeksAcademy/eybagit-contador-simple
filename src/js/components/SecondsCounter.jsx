@@ -1,7 +1,7 @@
 import React from 'react'
 
- function SecondsCounter({ segundos }) {
-  const digits = String(segundos).padStart(6, '0').split('')
+ function SecondsCounter(props) {
+  const digits = String(props.segundos).padStart(6, '0').split('')
 
   return (
     <div className="contenedor-principal d-flex justify-content-center">
