@@ -24,6 +24,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 0.9rem;
+  
 }
 
 .icono {
@@ -33,6 +35,7 @@
   width: 2.2ch;
   aspect-ratio: 1/1;
   padding: 0.5ch;
+  
 }
 
 .digito {
@@ -40,7 +43,7 @@
   font-size: 8vw;
   width: 2ch;
   aspect-ratio: 1/1.4;
-  margin: 0 0.2rem;
+  margin: 0 0.8rem;
 }
 
 .voltear-horizontal {
