@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function SecondsCounter({ segundos }) {
+ function SecondsCounter({ segundos }) {
   const digits = String(segundos).padStart(6, '0').split('')
 
   return (
@@ -23,3 +23,5 @@ export default function SecondsCounter({ segundos }) {
     </div>
   )
 }
+
+export default SecondsCounter
